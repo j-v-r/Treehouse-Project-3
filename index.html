@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Treehouse Project 3</title>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700" rel="stylesheet">
+<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <!-- ***HEADER*** -->
+<header>
+  <div class="header">
+    <h1>The Code Review</h1>
+  </div>
+  <div class="header">
+    <h2>Signup for out newsletter</h2>
+    <p>Get the latest news on how your code is doing right in your inbox</p>
+  </div>
+</header>
+
+<!-- ***CONTACT INFO*** -->
+
+<form method="post" action="#">
+
+<!-- ***BORDER*** -->
+  <div id="top-border"></div>
+  <div id="bottom-border"></div>
+
+<fieldset>
+
+    <legend>Contact Information</legend>
+  <div>
+    <label for="fullname">Full Name</label>
+    <br>
+    <input id="fullname" name="fullname" type="text" placeholder="  Required">
+  </div>
+  <div>
+    <label for="email">Email Address</label>
+    <br>
+    <input id="email" name="email" type="text" placeholder="  Required">
+  </div>
+  <div>
+    <label for="mobile_phone">Mobile Number</label>
+    <br>
+    <input id="mobile_phone" name="mobile phone" type="text" placeholder="  (111) 111-1111">
+  </div>
+  <div>
+    <label for="home_phone">Home Number</label>
+    <br>
+    <input id="home_phone" name="home phone" type="text" placeholder="  (111) 111-1111">
+  </div>
+  <div>
+    <label for="street_address">Street Address</label>
+    <br>
+    <input id="street_address" name="street address" type="text">
+  </div>
+  <div>
+    <label for="city">City</label>
+    <br>
+    <input id="city" name="city" type="text">
+  </div>
+
+  <!-- STATE SELECT -->
+  <div>
+    <label for="state">State</label>
+    <br>
+    <select id="state" name="state">
+      <option value="default" selected>Choose State</option>
+      <option value="AL">Alabama</option>
+	<option value="AK">Alaska</option>
+	<option value="AZ">Arizona</option>
+	<option value="AR">Arkansas</option>
+	<option value="CA">California</option>
+	<option value="CO">Colorado</option>
+	<option value="CT">Connecticut</option>
+	<option value="DE">Delaware</option>
+	<option value="DC">District Of Columbia</option>
+	<option value="FL">Florida</option>
+	<option value="GA">Georgia</option>
+	<option value="HI">Hawaii</option>
+	<option value="ID">Idaho</option>
+	<option value="IL">Illinois</option>
+	<option value="IN">Indiana</option>
+	<option value="IA">Iowa</option>
+	<option value="KS">Kansas</option>
+	<option value="KY">Kentucky</option>
+	<option value="LA">Louisiana</option>
+	<option value="ME">Maine</option>
+	<option value="MD">Maryland</option>
+	<option value="MA">Massachusetts</option>
+	<option value="MI">Michigan</option>
+	<option value="MN">Minnesota</option>
+	<option value="MS">Mississippi</option>
+	<option value="MO">Missouri</option>
+	<option value="MT">Montana</option>
+	<option value="NE">Nebraska</option>
+	<option value="NV">Nevada</option>
+	<option value="NH">New Hampshire</option>
+	<option value="NJ">New Jersey</option>
+	<option value="NM">New Mexico</option>
+	<option value="NY">New York</option>
+	<option value="NC">North Carolina</option>
+	<option value="ND">North Dakota</option>
+	<option value="OH">Ohio</option>
+	<option value="OK">Oklahoma</option>
+	<option value="OR">Oregon</option>
+	<option value="PA">Pennsylvania</option>
+	<option value="RI">Rhode Island</option>
+	<option value="SC">South Carolina</option>
+	<option value="SD">South Dakota</option>
+	<option value="TN">Tennessee</option>
+	<option value="TX">Texas</option>
+	<option value="UT">Utah</option>
+	<option value="VT">Vermont</option>
+	<option value="VA">Virginia</option>
+	<option value="WA">Washington</option>
+	<option value="WV">West Virginia</option>
+	<option value="WI">Wisconsin</option>
+	<option value="WY">Wyoming</option>
+    </select>
+  </div>
+
+  <div>
+    <label for="zipcode">Zip Code</label>
+    <br>
+    <input id="zipcode" name="contact-info" type="text">
+  </div>
+</fieldset>
+<br>
+
+<!-- ***BORDER*** -->
+
+<div id="form-border"></div>
+
+<!-- ***NEWSLETTER*** -->
+
+<fieldset>
+
+    <legend>Newsletter</legend>
+    <p>Select the newsletters you would like to recieve:</p>
+    <!-- CHECKBOXes -->
+
+    <div>
+      <input type="checkbox" id="html_news"><label for="html_news"><span></span>HTML News</label>
+    </div>
+    <div>
+      <input type="checkbox" id="css_news"><label for="css_news"><span></span>CSS News</label>
+    </div>
+    <div>
+      <input type="checkbox" id="js_news"><label for="js_news"><span></span>Javascript News</label>
+    </div>
+
+    <p>Newsletter format:</p>
+    <div>
+      <input type="radio" id="html" name="format"><label for="html"><span><span></span></span>HTML</label>
+    </div>
+    <div>
+      <input type="radio" id="text" name="format"><label for="text"><span><span></span></span>Plain Text</label>
+    </div>
+
+    <p>Other topics you'd like to hear about:</p>
+    <div>
+      <textarea>
+      </textarea>
+    </div>
+
+    <div id="submit">
+      <button type="submit">
+        Sign Up
+      </button>
+    </div>
+
+
+</fieldset>
+</form>
+
+<!-- ***FOOTER*** -->
+<footer>
+<p>Copyright The Code Review</p>
+</footer>
+</body>
+</html>
