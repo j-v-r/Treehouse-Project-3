@@ -44,22 +44,12 @@ body {
 }
 
 /* BORDER */
-#top-border {
-  width: 100%;
-  margin: .25rem auto;
-  border-top: 6px solid #4682B4;
-  display: block;
-}
-#bottom-border {
-  width: 100%;
-  margin: 0 0 2rem;;
-  border-bottom: 2px solid #4682B4;
-  display: block;
-}
 
+#top-border,
+#bottom-border,
 #form-border {
-  width: 100%;
-  margin: 0 0 2rem;
+  width: 90%;
+  margin: 0 auto 2rem;
   border-bottom: 2px solid #4682B4;
   display: block;
 }
@@ -262,6 +252,12 @@ footer {
 
   #zipcode {
     width: 30%;
+  }
+
+  #top-border,
+  #bottom-border,
+  #form-border  {
+    width: 100%;
   }
 
 }
