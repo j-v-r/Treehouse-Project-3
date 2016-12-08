@@ -82,6 +82,7 @@ legend{
   color: #FFC0CB;
   font-weight: 600;
   font-size: 18px;
+  margin-bottom: 2rem;
 }
 
 label {
@@ -170,29 +171,7 @@ input[type="radio"]:checked + label > span > span {
   background-image :         linear-gradient(rgb(179,217,140),rgb(153,204,102));
 }
 
-/*
-input[type="checkbox"] {
-    visibility: hidden;
-}
 
-input[type="checkbox"] + label:before {
-    content: '\00a0';
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    font-size: 16px;
-    background-color: black;
-    border: 1px solid grey;
-    color: #000;
-    text-align: center;
-}
-
-input[type=”checkbox”]:checked + label:before {
-    content: '\2714';
-    background-color: white;
-}
-
-*/
 form p {
   color: #FFC0CB;
   font-weight: lighter;
@@ -248,6 +227,36 @@ footer {
   form {
     width: 60%;
     margin: auto;
+  }
+
+  .desktop_content {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .label_desktop {
+    width: 150px;
+    font-weight: 600;
+  }
+
+  input[type="text"] {
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F5F5;
+    width: 60%;
+    height: 3rem;
+    font-size: 18px;
+    margin-bottom: 1rem;
+    display: inline-block;
+  }
+
+  select {
+    border-radius: 5px;
+    border: none;
+    background-color: #F5F5F5;
+    height: 3rem;
+    margin: 0 0 1rem;
+    width: 60%;
   }
 
   #zipcode {
